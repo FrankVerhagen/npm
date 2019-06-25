@@ -1,4 +1,4 @@
-import { Fun } from "../rule";
+import { Fun } from "./BCCC";
 
 type Sum = <c,a,b>(f:Fun<a,c>, g:Fun<b,c>) => Fun<Sum<a,b>,c>
 
